@@ -1,20 +1,72 @@
 
-Hey! Let me tell you about this cool React code editor I've been working on. It's basically like Playcode's React editor, but web-based, and it shows you your code changes in real-time.
+# React Code Editor
 
-So, what can it do? Well, you can see your React code running live as you type, and it uses Monaco Editor (you know, the same engine that powers VS Code). You can manage your packages, browse through files, and it's got this nice split-view setup. Oh, and of course it has all the usual stuff like syntax highlighting and runs your code instantly.
+A cool web-based React code editor that lets you see your React code changes in real-time. Built using Monaco Editor (the same engine behind VS Code), this editor allows you to code, preview, and manage your React app in a split-view setup with package management support!
 
-Want to try it out? Here's what you'll need to get started:
-- Just make sure you've got Node.js and npm installed first.
+## Features
 
-Setting it up is pretty straightforward:
-1. Just grab the code from the repo and hop into the project folder
-2. Run `npm install` to get all the dependencies
-3. Then `npm run dev` to fire it up
+- **Live Preview**: View your React code running live as you type.
+- **Monaco Editor**: The same engine powering VS Code, for an awesome coding experience.
+- **Split View**: Code editor on one side, and your app preview on the other.
+- **Syntax Highlighting**: Code clarity with syntax highlighting.
+- **Instant Execution**: Your code runs instantly as you make changes.
+- **Package Management**: Manage your npm packages easily within the app.
+- **File Explorer**: Switch between files with ease.
 
-Once you do that, just head over to localhost:5173 in your browser and you're good to go!
+## Tech Stack
 
-Using it is super simple - you've got your main editor where you write your React code, a preview window right below it to see what your code's doing, a file explorer to jump between files, and a package manager if you need to add any npm packages.
+- **React.js**
+- **JavaScript**
+- **Monaco Editor**
+- **Tailwind CSS**
+- **Vite**
 
-We built it using some pretty solid tech - React.js, JavaScript, Monaco Editor, Tailwind CSS, and Vite.
+## Getting Started
 
-Want to help out? Awesome! Just fork the repo, create a branch for your changes (something like `feature/amazing-feature`), make your updates, commit them, push them up, and open a PR. We'd love to see what you come up with!
+### Prerequisites
+
+Make sure you have **Node.js** and **npm** installed.
+
+### Setup
+
+To get started, follow these steps:
+
+1. Clone the repository.
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd <project-folder>
+   ```
+
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+5. Visit [http://localhost:5173](http://localhost:5173) in your browser to see the app in action!
+
+### Usage
+
+- **Code Editor**: Write your React code in the main editor.
+- **Preview Window**: See your React app running in real-time.
+- **File Explorer**: Easily jump between files in your project.
+- **Package Manager**: Add npm packages as needed through the integrated package manager.
+
+## Contributing
+
+We would love to have your contributions! To contribute:
+
+1. **Fork** the repo.
+2. **Create a branch**: `git checkout -b feature/amazing-feature`.
+3. **Make changes**.
+4. **Commit your changes**: `git commit -m "Added amazing feature"`.
+5. **Push**: `git push origin feature/amazing-feature`.
+6. **Open a Pull Request** with a description of your changes.
