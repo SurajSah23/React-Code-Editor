@@ -5,14 +5,14 @@ A cool web-based React code editor that lets you see your React code changes in 
 
 ## Features
 
-- **Live Preview**: View your React code running live as you type.
-- **Monaco Editor**: The same engine powering VS Code, for an awesome coding experience.
-- **Split View**: Code editor on one side, and your app preview on the other.
-- **Syntax Highlighting**: Code clarity with syntax highlighting.
-- **Instant Execution**: Your code runs instantly as you make changes.
-- **Package Management**: Manage your npm packages easily within the app.
-- **File Explorer**: Switch between files with ease.
+- Live React code preview
+- Monaco Editor integration
+- Package management interface
+- File explorer
+- Split view layout
+- Real-time code execution
 
+  
 ## Tech Stack
 
 - **React.js**
